@@ -218,3 +218,10 @@ span {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+
+.projects {
+    background: var(--second-bg-color);
+}
+.projects h2{
+    margin-bottom: 4rem;
+}
