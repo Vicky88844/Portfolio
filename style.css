@@ -225,3 +225,46 @@ span {
 .projects h2{
     margin-bottom: 4rem;
 }
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.5rem;
+}
+
+.projects-container  .projects-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;    
+}
+
+.projects-box img{
+    width: 100%;
+}
+
+.projects-box  .projects-layers {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding:  0 4rem;
+
+}
+
+.projects-layers h4{
+    font-size: 3rem;
+}
+
+.projects-layers p{
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
